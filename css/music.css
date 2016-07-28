@@ -1,0 +1,11 @@
+body {
+    background-image: url("http://science-all.com/images/wallpapers/abstract-background/abstract-background-3.jpg")
+}
+.jumbotron {
+    margin: 20px;
+    text-align: center;
+}
+
+.music_box {
+    text-align: center;
+}

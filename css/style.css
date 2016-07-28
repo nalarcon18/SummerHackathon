@@ -1,5 +1,6 @@
 body {
-    background-image: url("https://media1.giphy.com/media/y6T75vNWBQzCg/200.gif");
+    /*background-image: url("https://media1.giphy.com/media/y6T75vNWBQzCg/200.gif");*/
+    background-image: url(¨http://3.bp.blogspot.com/-5GSSE_L1A3U/VYFWxxL5zUI/AAAAAAAAAjI/vdgqTYds4Eo/s1600/11_MacysFireworks_GIF_460x285-%2BJulienne%2BSchaer.gif¨);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,4 +47,5 @@ h1 {
     font-family: 'Permanent Marker', cursive;
     font-size: 5em;
     font-weight: bold;
+    color: white;
 }
