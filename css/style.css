@@ -42,26 +42,8 @@ button:active {
    background: #1b435e;
    }
 h1 {
-    font-family: 'Righteous', cursive;
+    /*font-family: 'Righteous', cursive;*/
+    font-family: 'Permanent Marker', cursive;
     font-size: 5em;
     font-weight: bold;
 }
-div { 
-    padding-top: 50px;
-}
-    #button1 {
-    
-}
-#button2 {
-     
-}
-    #button3 {
-       position: relative;
-       top: 200px;
-       left: 125px;
-    }
-    #button2 {
-       position: relative;
-       top: 200px;
-       right: 125px;
-    }
