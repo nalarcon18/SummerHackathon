@@ -130,14 +130,14 @@ $(document).ready(function() {
         var moana_img = document.createElement("img");
         moana_img.src = "http://ia.media-imdb.com/images/M/MV5BNDU1MTQzODAyM15BMl5BanBnXkFtZTgwNjE5ODIxOTE@._V1_SY1000_CR0,0,674,1000_AL_.jpg";
         moana_img.setAttribute("height", "350");
-        moana_img.setInterval("width", "225");
+        moana_img.setAttribute("width", "225");
         $(".poster-two").append(moana_img);
         $(".header-two").text("Moana");
         $(".p-two").text("A young woman uses her navigational talents to set sail for a fabled island. Joining her on the adventure is her hero, the legendary demi-god Maui.");
     }
     else if (coming_title == "Doctor Strange") {
         var doctor_strange_img = document.createElement("img");
-        doctor_strange_img = "http://ia.media-imdb.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_SY1000_CR0,0,674,1000_AL_.jpg";
+        doctor_strange_img.src = "http://ia.media-imdb.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_SY1000_CR0,0,674,1000_AL_.jpg";
         doctor_strange_img.setAttribute("height", "350");
         doctor_strange_img.setAttribute("width", "225");
         $(".poster-two").append(doctor_strange_img);
@@ -146,7 +146,7 @@ $(document).ready(function() {
     }
     else if (coming_title == "Fantastical Beasts and Where to Find Them") {
         var fantastical_beasts_img = document.createElement("img");
-        fantastical_beasts_img = "http://ia.media-imdb.com/images/M/MV5BMjQyMzIyMTY5NF5BMl5BanBnXkFtZTgwMDA0Mjk0NzE@._V1_SY1000_CR0,0,674,1000_AL_.jpg";
+        fantastical_beasts_img.src = "http://ia.media-imdb.com/images/M/MV5BMjQyMzIyMTY5NF5BMl5BanBnXkFtZTgwMDA0Mjk0NzE@._V1_SY1000_CR0,0,674,1000_AL_.jpg";
         doctor_strange_img.setAttribute("height", "350");
         doctor_strange_img.setAttribute("width", "225");
         $(".poster-two").append(fantastical_beasts_img);
@@ -155,7 +155,7 @@ $(document).ready(function() {
     }
     else if (coming_title == "Pete's Dragon") {
         var petes_dragon_img = document.createElement("img");
-        petes_dragon_img = "http://ia.media-imdb.com/images/M/MV5BMjE5MjIwNTMxMF5BMl5BanBnXkFtZTgwNTA1MDcxOTE@._V1_SY1000_CR0,0,674,1000_AL_.jpg";
+        petes_dragon_img.src = "http://ia.media-imdb.com/images/M/MV5BMjE5MjIwNTMxMF5BMl5BanBnXkFtZTgwNTA1MDcxOTE@._V1_SY1000_CR0,0,674,1000_AL_.jpg";
         petes_dragon_img.setAttribute("height", "350");
         petes_dragon_img.setAttribute("width", "225");
         $(".poster-two").append(petes_dragon_img);
@@ -164,7 +164,7 @@ $(document).ready(function() {
     }
     else {
         var kubo_img = document.createElement("img");
-        kubo_img = "http://ia.media-imdb.com/images/M/MV5BMjA2Mzg2NDMzNl5BMl5BanBnXkFtZTgwMjcwODUzOTE@._V1_SY1000_SX675_AL_.jpg";
+        kubo_img.src = "http://ia.media-imdb.com/images/M/MV5BMjA2Mzg2NDMzNl5BMl5BanBnXkFtZTgwMjcwODUzOTE@._V1_SY1000_SX675_AL_.jpg";
         kubo_img.setAttribute("height", "350");
         kubo_img.setAttribute("width", "225");
         $(".poster-two").append(kubo_img);

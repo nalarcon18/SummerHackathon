@@ -23,4 +23,4 @@ the first day as I didn't really understadn where to commit and how to commit. T
 instructors taught me how to commit a project to git which I will use later on the future.
 
 For now the next thing for this project is to finish the Food section in this project and add more
-css to the Music Section
+css to the Music Section.
