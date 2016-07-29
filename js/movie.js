@@ -1,6 +1,6 @@
 $(document).ready(function() {
     var movie_titles = ["Star Trek Beyond", "Ghostbusters", "Jason Borne", "Nerve", "Secret Life of Pets", "BFG"];
-    var coming_movie_titles = ["Suicide Sqaud", "Moana", "Doctor Strange", "Fantastical Beasts and Where to Find Them", "Pete´ s Dragon"];
+    var coming_movie_titles = ["Suicide Squad", "Moana", "Doctor Strange", "Fantastical Beasts and Where to Find Them", "Pete's Dragon"];
     var movie = movie_titles[Math.floor(Math.random() * movie_titles.length)];
     var coming_title = coming_movie_titles[Math.floor(Math.random() * coming_movie_titles.length)];
     // console.log(movie);

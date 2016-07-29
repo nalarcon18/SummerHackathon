@@ -4,43 +4,43 @@ $(document).ready(function() {
 
     if (food == "Berry and ice cream shortcakes") {
         var _img = document.createElement("img");
-        _img.src = "";
+        _img.src = "https://s-media-cache-ak0.pinimg.com/736x/18/8b/cc/188bcc320ef4cc53e390a960836d6ebb.jpg";
         _img.setAttribute("height", "350");
         _img.setAttribute("Width", "225");
         $(".poster").append(_img);
-        $(".header").text("");
+        $(".header").text("Berry  and ice cream shortcakes");
         $(".ip-one").text("");
         // continue this ^^^ up until .ip-ten
         $(".ir-two").text("");
         // continue this ^^^ up until .ip-five
     }
-    else if (food == "") {
+    else if (food == "Blueberry Tart") {
         var _img = document.createElement("img");
         _img.src = "";
         _img.setAttribute("height", "350");
         _img.setAttribute("Width", "225");
         $(".poster").append(_img);
-        $(".header").text("");
+        $(".header").text("Blueberry Tart");
         $(".ip-one").text("");
         $(".rp-one").text("");
     }
-    else if (food == "") {
+    else if (food == "Fresh Yogurt") {
         var _img = document.createElement("img");
         _img.src = "";
         _img.setAttribute("height", "350");
         _img.setAttribute("Width", "225");
         $(".poster").append(_img);
-        $(".header").text("");
+        $(".header").text("Fresh Yogurt");
         $(".ip-one").text("");
         $(".rp-two").text("");
     }
-    else {
+    else { 
         var _img = document.createElement("img");
         _img.src = "";
         _img.setAttribute("height", "350");
         _img.setAttribute("Width", "225");
         $(".poster").append(_img);
-        $(".header").text("");
+        $(".header").text("Chipotle Cheesesteak");
         $(".ip-one").text("");
         $(".rp-two").text("");
     }
