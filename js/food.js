@@ -16,7 +16,7 @@ $(document).ready(function() {
         $(".ip-five").text("biscuits");
         $(".ip-six").text("vanilla ice cream");
         // continue this ^^^ up until .ip-ten
-        $(".ir-two").text("");
+        $(".rp-one").text("");
         // continue this ^^^ up until .ip-five
     }
     else if (food == "Blueberry Tart") {
@@ -27,7 +27,14 @@ $(document).ready(function() {
         $(".poster").append(blue_img);
         $(".header").text("Blueberry Tart");
         $(".ip-one").text("flour");
-        $(".ip-two").text("flour");
+        $(".ip-two").text(" frozen puff pastry");
+        $(".ip-three").text("eggs");
+        $(".ip-four").text("granulated sugar");
+        $(".ip-five").text("cream cheese");
+        $(".ip-six").text("heavy cream");
+        $(".ip-seven").text("grated lemon zest");
+        $(".ip-eight").text(" confectioners' sugar");
+        $(".ip-nine").text("blueberries");
         $(".rp-one").text("");
     }
     else if (food == "Fresh Yogurt") {
@@ -37,17 +44,18 @@ $(document).ready(function() {
         _img.setAttribute("Width", "225");
         $(".poster").append(yogurt_img);
         $(".header").text("Fresh Yogurt");
-        $(".ip-one").text("");
-        $(".rp-two").text("");
+        $(".ip-one").text(" saucepan");
+         
+        $(".rp-one").text("");
     }
     else { chipotle cheesesteak
         var chipotle _img = document.createElement("img");
         chipotle_img.src = "";
         chipotle_img.setAttribute("height", "350");
         chipotle_img.setAttribute("Width", "225");
-        $(".poster").append(_img);
+        $(".poster").append(chipotle_img);
         $(".header").text("Chipotle Cheesesteak");
         $(".ip-one").text("");
-        $(".rp-two").text("");
+        $(".rp-one").text("");
     }
 });
