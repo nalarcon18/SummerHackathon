@@ -9,8 +9,8 @@ $(document).ready(function() {
         berry_img.setAttribute("Width", "225");
         $(".poster").append(berry_img);
         $(".header").text("Berry and Ice Cream Shortcakes");
-        $(".ip-one").text("raspberries");
-        $(".ip-two").text("blueberries");
+        $(".ip-one").text("Raspberries");
+        $(".ip-two").text("Blueberries");
         $(".ip-three").text("sugar");
         $(".ip-four").text("orange juice");
         $(".ip-five").text("biscuits");
@@ -45,6 +45,7 @@ $(document).ready(function() {
         $(".poster").append(yogurt_img);
         $(".header").text("Fresh Yogurt");
         $(".ip-one").text(" saucepan");
+         $(".ip-two").text("eggs");
          
         $(".rp-one").text("");
     }
