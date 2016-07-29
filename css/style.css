@@ -1,51 +1,58 @@
 body {
     /*background-image: url("https://media1.giphy.com/media/y6T75vNWBQzCg/200.gif");*/
-    background-image: url(¨http://3.bp.blogspot.com/-5GSSE_L1A3U/VYFWxxL5zUI/AAAAAAAAAjI/vdgqTYds4Eo/s1600/11_MacysFireworks_GIF_460x285-%2BJulienne%2BSchaer.gif¨);
+    background-image: url("http://3.bp.blogspot.com/-5GSSE_L1A3U/VYFWxxL5zUI/AAAAAAAAAjI/vdgqTYds4Eo/s1600/11_MacysFireworks_GIF_460x285-%2BJulienne%2BSchaer.gif");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
       text-align: center;
       position: relative;
-      height: 700px;
+      /*width: 600px;*/
+      /*height: 700px;*/
+      height: 600px;
+      
 }
 
 
 button {
-   border-top: 1px solid #96d1f8;
-   background: #f7ff00;
-   background: -webkit-gradient(linear, left top, left bottom, from(#ed8d17), to(#f7ff00));
-   background: -webkit-linear-gradient(top, #ed8d17, #f7ff00);
-   background: -moz-linear-gradient(top, #ed8d17, #f7ff00);
-   background: -ms-linear-gradient(top, #ed8d17, #f7ff00);
-   background: -o-linear-gradient(top, #ed8d17, #f7ff00);
+   /*border-top: 1px solid #96d1f8;*/
+   /*background: #f7ff00;*/
+   background: -webkit-gradient(linear, left top, left bottom, from(#b3d9ff), to(#0033cc));
+   /*background: -webkit-linear-gradient(top, #ed8d17, #f7ff00);*/
+   /*background: -moz-linear-gradient(top, #ed8d17, #f7ff00);*/
+   /*background: -ms-linear-gradient(top, #ed8d17, #f7ff00);*/
+   /*background: -o-linear-gradient(top, #ed8d17, #f7ff00);*/
    padding: 40px 40px;
-   -webkit-border-radius: 8px;
-   -moz-border-radius: 8px;
+   /*-webkit-border-radius: 8px;*/
+   /*-moz-border-radius: 8px;*/
    border-radius: 13px;
-   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   box-shadow: rgba(0,0,0,1) 0 1px 0;
-   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   /*-webkit-box-shadow: rgb(0, 0, 0, 0) 0 1px 0;*/
+   /*-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;*/
+   /*box-shadow: rgba(0,0,0,1) 0 px 0;*/
+   text-shadow: rgba(0,0,0,.4) 0 2px 0;
    color: white;
-   font-size: 14px;
-   font-family: Verdana, serif;
-   text-decoration: none;
+   font-size: 30px;
+   font-family: 'Amatic SC', cursive;
+   /*font-family: Verdana, serif;*/
+   /*text-decoration: none;*/
    vertical-align: middle;
-   margin-bottom: inherit
+   /*margin-bottom: inherit;*/
    }
+   
 button:hover {
    border-top-color: #28597a;
    background: #28597a;
-   color: #ccc;
+   /*color: #ccc;*/
+   color: white;
    }
 button:active {
-   border-top-color: #1b435e;
+   /*border-top-color: #1b435e;*/
    background: #1b435e;
+   /*margin: 10px;*/
    }
 h1 {
     /*font-family: 'Righteous', cursive;*/
     font-family: 'Permanent Marker', cursive;
-    font-size: 5em;
+    font-size: 7em;
     font-weight: bold;
     color: white;
 }
