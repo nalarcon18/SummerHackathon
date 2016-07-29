@@ -78,7 +78,46 @@ $(document).ready(function() {
     }
 
     // console.log(coming_titltesttttttttttte);
-function coming (coming_title) {    if (coming_title == "Suicide Squad") {
+
+    // switch (coming_title) {
+    //     case 'Suicide Squad':
+    //         // code
+    //         var suicide_squad_img = document.createElement("img");
+    //         suicide_squad_img.src = "http://www.gstatic.com/tv/thumb/movieposters/11319046/p11319046_p_v8_af.jpg";
+    //         suicide_squad_img.setAttribute("height", "350");
+    //         suicide_squad_img.setAttribute("width", "225");
+    //         $(".poster-two").append(suicide_squad_img);
+    //         $(".header-two").text("Suicide Squad");
+    //         $(".p-two").text("Intelligence officer");
+    //         break;
+    //     case 'Moana':
+    //         // code
+    //         var moana_img = document.createElement("img");
+    //         moana_img.src = "http://ia.media-imdb.com/images/M/MV5BNDU1MTQzODAyM15BMl5BanBnXkFtZTgwNjE5ODIxOTE@._V1_SY1000_CR0,0,674,1000_AL_.jpg";
+    //         moana_img.setAttribute("height", "350");
+    //         moana_img.setInterval("width", "225");
+    //         $(".poster-two").append(moana_img);
+    //         $(".header-two").text("Moana");
+    //         $(".p-two").text("A young woman uses");
+    //         break;
+    //     case 'Doctor Strange':
+    //         // code
+    //         var doctor_strange_img = document.createElement("img");
+    //         doctor_strange_img = "http://ia.media-imdb.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_SY1000_CR0,0,674,1000_AL_.jpg";
+    //         doctor_strange_img.setAttribute("height", "350");
+    //         doctor_strange_img.setAttribute("width", "225");
+    //         $(".poster-two").append(doctor_strange_img);
+    //         $(".header-two").text("Doctor Strange");
+    //         $(".p-two").text("After his career is destroyed");
+    //         break;
+
+    //     default: console.log('firsttt',coming_title);
+    //         // code
+    // }
+    
+    // console.log('second',coming_title);
+    
+    if (coming_title == "Suicide Squad") {
         var suicide_squad_img = document.createElement("img");
         suicide_squad_img.src = "http://www.gstatic.com/tv/thumb/movieposters/11319046/p11319046_p_v8_af.jpg";
         suicide_squad_img.setAttribute("height", "350");
@@ -132,8 +171,7 @@ function coming (coming_title) {    if (coming_title == "Suicide Squad") {
         $(".header-two").text("Kubo and the Two Strings");
         $(".p-two").text("Young Kubo's (Art Parkinson) peaceful existence comes crashing down when he accidentally summons a vengeful spirit from the past. Now on the run, Kubo joins forces with Monkey (Charlize Theron) and Beetle (Matthew McConaughey) to unlock a secret legacy. Armed with a magical instrument, Kubo must battle the Moon King (Ralph Fiennes) and other gods and monsters to save his family and solve the mystery of his fallen father, the greatest samurai warrior the world has ever known.");
     }
-}
 
-console.log(coming_title);
-coming(coming_title);
+
+
 });
