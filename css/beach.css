@@ -1,13 +1,13 @@
 body {
     background-image: url("https://www.aivanet.com/wp-content/uploads/2013/07/1920x1200.jpg");
-        
 }
 
-h1 { 
+h1 {
     font-family: 'Chewy', cursive;
     text-align: center;
     font-size: 5em;
 }
 
-
-    
+h2 {
+    font-family: 'Lobster Two', cursive;
+}
